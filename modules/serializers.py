@@ -4,7 +4,7 @@ from modules.models import Module
 
 
 class ModuleSerializer(serializers.ModelSerializer):
-    """ Сериалайзер для модели Module """
+    """ Сериализатор для модели образовательного модуля """
 
     class Meta:
         model = Module
